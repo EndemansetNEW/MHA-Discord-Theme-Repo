@@ -1,3 +1,11 @@
+/**
+ * @name My Hero Ultra Rumble Theme
+ * @author Endemanset
+ * @version 1.0
+ * @description Custom BetterDiscord/Vencord theme inspired by My Hero Ultra Rumble
+ * @source https://github.com/EndemansetNEW/MHA-Discord-Theme-Repo
+ */
+
 :root{
      --background: url('https://ultrarumble.com/assets/Gallery/T_ui_Gallery_Illust_10702_M.webp');
      --activetext-colour: white;
