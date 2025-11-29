@@ -1,0 +1,51 @@
+/**
+ * @name My Hero Academia Theme
+ * @author Endemanset
+ * @version 1.0
+ * @description Custom BetterDiscord/Vencord theme inspired by My Hero Ultra Rumble / My Hero Academia
+ * @source https://github.com/EndemansetNEW/MHA-Discord-Theme-Repo
+ */
+
+@import url('https://rawcdn.githack.com/EndemansetNEW/MHA-Discord-Theme-Repo/0eec454a68480e678f9676efb03a7d58eb3ec01e/core.css');
+
+:root {
+    --background: url('https://static.bandainamcoent.eu/high/my-hero-academia/my-hero-alls-justice/00-page-product/MHAJ-header-mobile.jpg');
+
+    /* Heroic accent colors */
+    --activetext-colour: #ffffff;
+    --primary1-colour: #00a2ff; /* Deku blue accent */
+    --primary2-colour: rgba(0, 162, 255, 0.5);
+    --primary3-colour: rgba(0, 162, 255, 0.3);
+    --primary4-colour: rgba(0, 162, 255, 0.15);
+
+    /* Secondary palette (UA heroic tones) */
+    --secondary1-colour: rgba(30, 30, 30, 0.6);
+    --secondary2-colour: rgba(50, 50, 50, 0.5);
+    --secondary3-colour: rgba(0, 0, 0, 0.7);
+    --secondary4-colour: rgba(0, 0, 0, 0.4);
+
+    /* Optional blur effect */
+    --background-blur: 10px;
+}
+
+/* Global background */
+body, .bg-1QIAus {
+    background: var(--background) no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+
+/* Frosted glass chat panels */
+.container-2cd8Mz, .chat-2ZfjoI {
+    background-color: var(--secondary3-colour);
+    backdrop-filter: blur(var(--background-blur));
+    border-radius: 12px;
+}
+
+/* Accent highlights */
+button, .selected-2TbFuo {
+    background-color: var(--primary2-colour);
+    color: var(--activetext-colour);
+    border-radius: 6px;
+}
+
+/* Note : This is made in the Release state but haven't been uploaded to BetterDiscord themes yet, since uploading to GitHUb is just broken, i made this */
