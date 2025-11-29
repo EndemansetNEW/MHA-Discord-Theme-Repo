@@ -1,6 +1,6 @@
-# My Hero Academia Discord Theme
+# My Hero Academia Discord Theme 
 
-A custom Discord theme inspired by *My Hero Ultra Rumble* and *My Hero Academia*, designed for BetterDiscord and Vencord.
+A custom Discord theme inspired by *My Hero Ultra Rumble* and *My Hero Academia*, designed for BetterDiscord and Vencord. And made completely in Linux (Lubuntu 24.04) 
 
 ## 🌟 Features
 - Heroic blue accent colors
@@ -16,10 +16,10 @@ A custom Discord theme inspired by *My Hero Ultra Rumble* and *My Hero Academia*
  
 #### For Vencord
 Step 1a. Do the same as BetterDiscord
-Step 1b : 
+; Step 1b : 
 1. Go to **Settings → Themes** (in Vencord tab)
 2. Click **Online Themes**
 3. Paste this URL: https://raw.githubusercontent.com/EndemansetNEW/MHA-Discord-Theme-Repo/main/core.css
 
-## 🖼️ Preview
+## 🖼️ Preview (took in Linux)
 [screen](https://github.com/user-attachments/assets/d2198544-aef6-4304-a321-446937bd3b5e)
