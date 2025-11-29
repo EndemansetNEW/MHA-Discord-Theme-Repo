@@ -23,3 +23,12 @@ Step 1b :
 
 ## 🖼️ Preview (took in Linux)
 [screen](https://github.com/user-attachments/assets/d2198544-aef6-4304-a321-446937bd3b5e)
+
+## 🙌 Special Thanks
+- **Microsoft Copilot**  
+- **Vencord’s QuickCSS editor**  
+- **Lubuntu’s Notepad**  
+- **VaporousCreeper** (creator of the GGO Kirito theme, whose `core.css` code inspired parts of this project)
+- **Counter-Strike: Source** (For no reason at all)
+- **My Hero Ultra Rumble unoffical wiki** (for some of the pictures in testing)
+- **MY HERO ACADEMIA: All’s Justice** (for the picture in production builds)
