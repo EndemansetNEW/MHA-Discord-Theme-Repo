@@ -15,8 +15,8 @@ A custom Discord theme inspired by *My Hero Ultra Rumble* and *My Hero Academia*
 3. Enable it in the client
  
 #### For Vencord
-Step 1a. Do the same as BetterDiscord
-; Step 1b : 
+Step 1a. Do the same as BetterDiscord or
+Step 1b : 
 1. Go to **Settings → Themes** (in Vencord tab)
 2. Click **Online Themes**
 3. Paste this URL: https://raw.githubusercontent.com/EndemansetNEW/MHA-Discord-Theme-Repo/main/core.css
