@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=3.0" name="viewport">
+        <!-- section:seometa -->
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Discord">
+        <meta property="og:title" content="Discord - Group Chat That’s All Fun &amp; Games">
+        <meta property="og:description" content="Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.">
+        <meta property="og:image" content="https://cdn.discordapp.com/assets/og_img_discord_home.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@discord">
+        <meta name="twitter:creator" content="@discord">
+        <!-- endsection -->
+        <!-- plugin:globalConstants -->
+        <!-- plugin:meticulous -->
+        <!-- plugin:fastConnect -->
+        <!-- section:title -->
+        <title>Discord</title>
+        <!-- endsection -->
+        <script nonce="MjIxLDY4LDIsNDQsMTk3LDIzOCwyMDIsMjc=">
+            window.__OVERLAY__ = /overlay/.test(location.pathname);
+            window.__BILLING_STANDALONE__ = /^\/billing/.test(location.pathname);
+        </script>
+        <link as="script" href="/assets/web.a596cbe3f3e41865.js" rel="preload">
+        <link as="script" href="/assets/sentry.1529829037fe0f74.js" rel="preload">
+        <link as="script" href="/assets/fast-connect.b95ffd53a04ca7f0.js" rel="preload">
+        <link as="script" href="/assets/libdiscore-wasm-fetch.b0c160428febe877.js" rel="preload">
+        <script nonce="MjIxLDY4LDIsNDQsMTk3LDIzOCwyMDIsMjc=">
+            !function() {
+                if (null != window.WebSocket) {
+                    var n = function(n) {
+                        try {
+                            var o = localStorage.getItem(n);
+                            if (null == o)
+                                return null;
+                            return JSON.parse(o)
+                        } catch (e) {
+                            return null
+                        }
+                    };
+                    if (n("token") && !window.__OVERLAY__) {
+                        var o = n("gateway_encoding_override") || (null != window.DiscordNative || null != window.require ? "etf" : "json")
+                          , e = window.GLOBAL_ENV.GATEWAY_ENDPOINT + "/?encoding=" + o + "&v=" + window.GLOBAL_ENV.API_VERSION;
+                        null != window.DiscordNative && void 0 !== window.Uint8Array && void 0 !== window.TextDecoder ? e += "&compress=zstd-stream" : void 0 !== window.Uint8Array && (e += "&compress=zlib-stream"),
+                        console.log("[FAST CONNECT] " + e + ", encoding: " + o + ", version: " + window.GLOBAL_ENV.API_VERSION);
+                        var i = new WebSocket(e);
+                        i.binaryType = "arraybuffer";
+                        var r = Date.now()
+                          , w = {
+                            open: !1,
+                            identify: !1,
+                            gateway: e,
+                            messages: []
+                        };
+                        i.onopen = function() {
+                            console.log("[FAST CONNECT] connected in " + (Date.now() - r) + "ms"),
+                            w.open = !0
+                        }
+                        ,
+                        i.onclose = i.onerror = function() {
+                            window._ws = null
+                        }
+                        ,
+                        i.onmessage = function(n) {
+                            w.messages.push(n)
+                        }
+                        ,
+                        window._ws = {
+                            ws: i,
+                            state: w
+                        }
+                    }
+                }
+            }();
+        </script>
+        <script defer src="/assets/libdiscore-wasm-fetch.b0c160428febe877.js"></script>
+        <script defer src="/assets/fast-connect.b95ffd53a04ca7f0.js"></script>
+        <script defer src="/assets/sentry.1529829037fe0f74.js"></script>
+        <script defer src="/assets/web.a596cbe3f3e41865.js"></script>
+        <link href="/assets/web.413be66cef39daed.css" rel="stylesheet">
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="app-mount"></div>
+    </body>
+</html>
